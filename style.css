@@ -1,26 +1,84 @@
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
+    font-family: 'Georgia', serif;
+    line-height: 1.8;
     margin: 0;
     padding: 0;
+    background-color: #FFF5E1; /* Warm tone background */
+    color: #4A4A4A;
 }
+
 header {
-    background: #333;
-    color: #fff;
-    padding: 1rem 0;
+    background: #D97758; /* Warm header color */
+    color: #FFF;
+    padding: 1.5rem 0;
     text-align: center;
 }
-section {
-    margin: 20px;
+
+nav {
+    background: #F3D9C5;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+    .nav-links li {
+        margin: 0;
+    }
+
+    .nav-links a {
+        color: #4A4A4A;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+        .nav-links a:hover {
+            color: #D97758;
+        }
+
+.section {
+    margin: 30px auto;
     padding: 20px;
+    max-width: 800px;
+    background: #FFEDE0;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
+
 h1, h2 {
-    color: #333;
+    color: #D97758;
 }
-a {
-    color: #007BFF;
+
+ul.skills-list, ul.projects-list {
+    list-style: square inside;
+    padding: 0;
+}
+
+.skills-list li, .projects-list li {
+    margin-bottom: 10px;
+}
+
+.projects-list a {
+    color: #D97758;
     text-decoration: none;
+    font-weight: bold;
 }
-a:hover {
-    text-decoration: underline;
+
+    .projects-list a:hover {
+        text-decoration: underline;
+    }
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #D97758;
+    color: #FFF;
+    margin-top: 20px;
 }
